@@ -11,3 +11,5 @@ Import `zbx_redis_trapper_template.xml` into zabbix in Tepmplate section web gui
 Run script in background with -i <interval> key:
 
 `zbx_redis_stats.py -i 10 &`
+
+Or add `/path/to/zbx_redis_stats.py -i 5` to /etc/rc.local.
